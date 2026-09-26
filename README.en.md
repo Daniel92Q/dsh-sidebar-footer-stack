@@ -24,7 +24,7 @@ Three things it does:
 | Capability | Detail |
 | --- | --- |
 | **Vertical stack** | Every entry in the slot becomes a full-width row. Plugins installed later are covered automatically — no code change needed. |
-| **Uniform chrome** | Every entry gets `dsh-cost-meter`'s card look: a `1px` border (`--dsw-alias-border-l1`), `12px` radius and the `--dsw-alias-bg-layer-1` background. **An entry that already draws its own cards does not get a second frame.** |
+| **Uniform chrome** | Every entry gets a uniform card look: a `1px` border (`--dsw-alias-border-l1`), `12px` radius and the `--dsw-alias-bg-layer-1` background. **An entry that already draws its own cards does not get a second frame.** |
 | **Drag to reorder** | Drag a card onto another card's upper/lower half to move it before/after. The order is stored in `localStorage` and survives reloads and restarts. |
 
 ## Install
