@@ -1,0 +1,8 @@
+# dsh-sidebar-footer-stack - local layout patch (never published).
+# Turns the sidebar footer action row (host slot `sidebar.footer.action`) into a
+# column, so its contributions stack instead of being squeezed side by side.
+# Uninstall: drop "dsh-sidebar-footer-stack" from the profile package.json
+# (both `dependencies` and `dsh.profile.bundles`) and remove node_modules entry.
+- insert:
+    - id: sidebar-footer-stack
+      name: dsh-sidebar-footer-stack

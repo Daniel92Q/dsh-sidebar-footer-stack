@@ -1,0 +1,75 @@
+{
+  "name": "dsh-sidebar-footer-stack",
+  "version": "1.5.0",
+  "description": "DeepSeek Harness plugin: stacks the sidebar footer slot entries vertically, unifies their card chrome, and lets you drag them to reorder.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "client-plugin",
+    "sidebar",
+    "layout",
+    "drag-and-drop",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel92Q/dsh-sidebar-footer-stack.git"
+  },
+  "homepage": "https://github.com/Daniel92Q/dsh-sidebar-footer-stack#readme",
+  "bugs": {
+    "url": "https://github.com/Daniel92Q/dsh-sidebar-footer-stack/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dshhub": {
+    "schemaVersion": 1,
+    "displayName": "dsh-sidebar-footer-stack",
+    "summary": "侧栏底部卡片纵向堆叠 + 统一卡面 + 拖动换序 / Stack the sidebar footer cards vertically, unify their chrome, drag to reorder.",
+    "categories": [
+      "Web UI",
+      "界面"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": {
+      "provides": []
+    },
+    "compatibility": {
+      "dsh": ">=0.1.7-rc.2"
+    },
+    "permissions": {
+      "network": []
+    }
+  }
+}
