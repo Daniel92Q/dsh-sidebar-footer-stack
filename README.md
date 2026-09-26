@@ -1,5 +1,9 @@
 # dsh-sidebar-footer-stack
 
+[![npm version](https://img.shields.io/npm/v/dsh-sidebar-footer-stack.svg)](https://www.npmjs.com/package/dsh-sidebar-footer-stack)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-sidebar-footer-stack.svg)](https://www.npmjs.com/package/dsh-sidebar-footer-stack)
+[![license](https://img.shields.io/npm/l/dsh-sidebar-footer-stack.svg)](./LICENSE)
+
 [English](./README.en.md) | **中文**
 
 把 DeepSeek Harness 侧栏底部的插件卡片**纵向堆叠**、**统一卡片外观**，并支持**拖动换序**。

@@ -1,5 +1,9 @@
 # dsh-sidebar-footer-stack
 
+[![npm version](https://img.shields.io/npm/v/dsh-sidebar-footer-stack.svg)](https://www.npmjs.com/package/dsh-sidebar-footer-stack)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-sidebar-footer-stack.svg)](https://www.npmjs.com/package/dsh-sidebar-footer-stack)
+[![license](https://img.shields.io/npm/l/dsh-sidebar-footer-stack.svg)](./LICENSE)
+
 **English** | [中文](./README.md)
 
 Stacks the plugin cards at the bottom of the DeepSeek Harness sidebar **vertically**, gives them **uniform card chrome**, and lets you **drag them to reorder**.
