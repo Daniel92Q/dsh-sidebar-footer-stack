@@ -1,6 +1,6 @@
 {
   "name": "dsh-sidebar-footer-stack",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "DeepSeek Harness plugin: stacks the sidebar footer slot entries vertically, unifies their card chrome, and lets you drag them to reorder.",
   "type": "module",
   "main": "lib/index.js",
